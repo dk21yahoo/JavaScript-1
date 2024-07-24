@@ -12,7 +12,7 @@ console.log(emailTwo)
 
 // Heap Memory (Non Primitive data types) use
 // Heap give a Refrence
-
+ 
 let userOne = {
     email: "heap@example.com",
     age: 18,
