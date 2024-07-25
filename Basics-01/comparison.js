@@ -16,13 +16,14 @@ console.log(null == undefined);
 
 //undified comparison
 
-console.log(undefined == 0);
-console.log(undefined <= 0);
-console.log(undefined >= 0);
-console.log(undefined > 0);
-console.log(undefined < 0);
+console.log(undefined == 0); // false
+console.log(undefined <= 0); // false
+console.log(undefined >= 0); // false
+console.log(undefined > 0);  // false
+console.log(undefined < 0);  // false 
+console.log("compare",undefined == null); // true
 
 
 // Strict comparison
 
-console.log("2" === 2);
+console.log("2" === 2); // false
