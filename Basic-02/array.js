@@ -62,6 +62,7 @@ console.log(real_array_flat);
 console.log(Array.isArray(marvel_heros))
 console.log(Array.from("Mobile"));
 
+
 // object in array
 console.log([{name: "Mobiles"}]);
 
