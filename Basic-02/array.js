@@ -22,7 +22,7 @@ console.log(myArr);
 myArr.shift()
 console.log(myArr);
 
-console.log(myArr.includes(8)); //true because 8 present inarray
+console.log(myArr.includes(8)); //true because 8 present in array
 console.log(myArr.includes(10)); // false
 
 const newArr = myArr.join()
@@ -32,7 +32,7 @@ const mArr1 = myArr.slice(1,3)
 console.log(myArr);
 console.log("slice",mArr1);
 
-const mArr2 = myArr.splice(1,4)
+const mArr2 = myArr.splice(1,4) // print 1 index to 3 index
 console.log(myArr);
 console.log("splice ",mArr2)
 
@@ -50,7 +50,7 @@ const dc_heros = ["SuperMan", "Flash", "BatMan"]
 const allHeros = marvel_heros.concat(dc_heros)
 console.log(allHeros); //adding to array
 
-const allNewHeros = [...marvel_heros, ...dc_heros]
+const allNewHeros = [...marvel_heros, ...dc_heros] //  spread method
 console.log(allNewHeros); // anoter metod for adding to array
 
 // flat() 
