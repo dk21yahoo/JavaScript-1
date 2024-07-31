@@ -33,29 +33,31 @@ function one(){
 // one()
 
 if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
+    const username = "Aalu"
+    if (username === "Aalu") {
         const website = " youtube"
-        // console.log(username + website);
+        console.log(username + website);  // run
     }
-    // console.log(website);
+    // console.log(website); // error
 }
 
-// console.log(username);
+// console.log(username); // error
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-// console.log(addone(5))
+//  console.log(addone(5))
 
-// function addone(num){
-//     return num + 1
-// }
+ function addone(num){
+     return num + 1
+ }
 
 
 
-// addTwo(5)
-// const addTwo = function(num){
-//     return num + 2
-// }
+//  addTwo(5)
+ const addTwo = function(num){ // expression
+   return num + 2
+ }
+
+//  console.log(addTwo(5))
