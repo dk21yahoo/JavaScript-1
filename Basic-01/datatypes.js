@@ -5,22 +5,26 @@ let logein = true
 let city = null
 let country = undefined
 
+
+let fl = 20.55
+console.log(typeof fl);
+
 //typeof type of variables
 
-console.log(typeof Nme)
-console.log(typeof age)
-console.log(typeof logein)
-console.log(typeof city)
-console.log(typeof country)
+// console.log(typeof Nme)
+// console.log(typeof age)
+// console.log(typeof logein)
+// console.log(typeof city)
+// console.log(typeof country)
 
-console.log(typeof "rajesh")
+// console.log(typeof "rajesh")
 
-console.log(typeof 88)
-
-
+// console.log(typeof 88)
 
 
-//primitive data types
+
+
+// //primitive data types
 
 // 7 Type of primitive data type: string, number, boolean, null, undefined, symbol, bigint
 
@@ -32,24 +36,25 @@ console.log(typeof 88)
 
 // **************************** Symbol ********************************
 
-const Id = Symbol("125")
+const Id = Symbol("120") //1
 
-const Id2 = Symbol("125")
+const Id2 = Symbol("125") // 2
 
-console.log(Id == Id2); //op false because symbol give always unique value
-console.log(typeof Id);
+// console.log(Id == Id2); //op false because symbol give always unique value
+// console.log(typeof Id);
 
 
 // Big Int
 
 const BigInt = 8465465444651649566n;
-console.log(typeof BigInt)
+// console.log(typeof BigInt)
 
 // Array
 
-const heros = ["Shaktiman", "naagraj", "doga", "chotabheem"]
-console.log(heros)
-console.log(typeof heros);
+const heros = ["Shaktiman", "naagraj", "doga", "chotabheem", true, 10, 84n]
+
+//  console.log(heros)
+//  console.log(typeof heros);
 
 
 // Object
@@ -60,13 +65,13 @@ let myObj = {
 
 }
 
-console.log(myObj);
+ // console.log(typeof myObj);
 
 // Function
 
 const myFunc = function(){
-    console.log("Hello World")
+     console.log("Hello World")
 }
 myFunc()
 
-console.log(typeof myFunc);
+ console.log(typeof myFunc);

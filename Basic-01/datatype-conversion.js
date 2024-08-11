@@ -95,7 +95,3 @@ let bnum3 = ""
 let convert_bnum3 = Boolean (bnum3)
 console.log(typeof convert_bnum3)
 console.log(convert_bnum3)
-
-let as = null
-let convert_as = undefined(as)
-console.log(typeof convert_as)
